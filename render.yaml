@@ -1,0 +1,9 @@
+services:
+  - type: static_site
+    name: pizza-hut-static
+    env: static
+    plan: free
+    branch: main
+    root: .
+    buildCommand: ""
+    publishPath: .
